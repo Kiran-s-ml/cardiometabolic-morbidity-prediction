@@ -68,10 +68,9 @@ Examining the distribution of the target classes to understand the proportion of
 
 The Synthetic Minority Over-sampling Technique (SMOTE) was applied to the training data for Logistic Regression and Support Vector Machine (SVM) to address class imbalance.
 
-SMOTE generates synthetic observations for the minority class to balance the training dataset. The test dataset was kept unchanged for model evaluation.
+SMOTE generates synthetic observations for the minority class. The test dataset was kept unchanged during this process.
 
-The remaining machine learning models were trained without applying SMOTE.
-
+The remaining nine machine learning models were trained using the original training data without applying SMOTE.
 ## **Machine Learning Models**
 
 Eleven machine learning algorithms were considered for model development and comparison:
