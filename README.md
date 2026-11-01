@@ -117,6 +117,19 @@ The analysis helps to:
 - Examine how predictor values influence model outputs.
 - Improve the interpretability of machine learning models.
 
+**Results and Model Comparison**
+
+The performance of all 11 machine learning models was compared using multiple classification metrics.
+
+The key findings were:
+
+- **XGBoost** achieved the highest accuracy (0.7120), balanced accuracy (0.6528), MCC (0.3414), and Cohen's Kappa (0.3286).
+- **ANN** achieved the highest sensitivity (0.4570), F1-score (0.5292), and NPV (0.7342).
+- **Gradient Boosting** achieved the highest ROC-AUC (0.7457) and PR-AUC (0.2619).
+- **Decision Tree** achieved the highest specificity (0.9995) and precision (0.7778), but had very low sensitivity (0.0032).
+
+Overall, XGBoost demonstrated the strongest performance across several evaluation metrics, while ANN and Gradient Boosting performed better on selected measures.
+
 ## **Results and Visualizations**
 
 The repository includes visualizations generated during the analysis, including:
