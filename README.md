@@ -64,6 +64,14 @@ Examining the distribution of the target classes to understand the proportion of
 - Feature scaling was performed using `StandardScaler`.
 - The scaler was fitted on the training data and subsequently applied to the test data to maintain consistency and avoid data leakage.
 
+### **Handling Class Imbalance**
+
+The Synthetic Minority Over-sampling Technique (SMOTE) was applied to the training data for Logistic Regression and Support Vector Machine (SVM) to address class imbalance.
+
+SMOTE generates synthetic observations for the minority class to balance the training dataset. The test dataset was kept unchanged for model evaluation.
+
+The remaining machine learning models were trained without applying SMOTE.
+
 ## **Machine Learning Models**
 
 Eleven machine learning algorithms were considered for model development and comparison:
