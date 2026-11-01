@@ -42,6 +42,14 @@ The original LASI dataset is not included in this repository. Researchers should
 
 The dataset underwent preprocessing before model development. The preparation process included:
 
+The initial data preparation involved:
+
+Checking missing values across variables using their counts and percentages.
+
+Separating the dataset into independent variables (18 predictors) and the dependent variable (CMD).
+
+Examining the distribution of the target classes to understand the proportion of individuals with and without cardiometabolic morbidity.
+
 - Data cleaning and preparation.
 - Handling missing observations.
 - Selection and preparation of predictor variables.
