@@ -89,20 +89,23 @@ Eleven machine learning algorithms were considered for model development and com
 
 ## **Model Evaluation**
 
-The models were evaluated using classification performance metrics to compare their predictive capabilities.
+All 11 machine learning models were evaluated using a common set of classification metrics to compare their predictive performance.
 
-The evaluation included metrics such as:
+The evaluation metrics included:
 
 - Accuracy
-- Precision
 - Sensitivity (Recall)
 - Specificity
+- Precision
 - F1-score
-- Area Under the ROC Curve (AUC)
+- Negative Predictive Value (NPV)
+- Balanced Accuracy
 - Matthews Correlation Coefficient (MCC)
+- Cohen's Kappa
+- Area Under the ROC Curve (ROC-AUC)
+- Area Under the Precision-Recall Curve (PR-AUC)
 
-Confusion matrices and ROC curves were also used to examine model performance.
-
+Confusion matrices, ROC curves, Precision-Recall curves, and classification reports were also used to assess model performance.
 ## **Explainable Artificial Intelligence (XAI)**
 
 SHAP (SHapley Additive exPlanations) was used to interpret machine learning predictions.
