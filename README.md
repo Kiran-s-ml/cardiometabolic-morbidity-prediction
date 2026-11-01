@@ -57,6 +57,13 @@ Examining the distribution of the target classes to understand the proportion of
 - Splitting the data into training and testing sets.
 - Applying appropriate preprocessing techniques for machine learning algorithms.
 
+### **Train-Test Split and Feature Scaling**
+
+- The dataset was divided into training (80%) and testing (20%) sets using `train_test_split`.
+- A random state of 42 was used to ensure reproducibility.
+- Feature scaling was performed using `StandardScaler`.
+- The scaler was fitted on the training data and subsequently applied to the test data to maintain consistency and avoid data leakage.
+
 ## **Machine Learning Models**
 
 Eleven machine learning algorithms were considered for model development and comparison:
